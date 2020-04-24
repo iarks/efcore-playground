@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>efcore_playground.service</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\efcore-playground.dataaccess\efcore-playground.dataaccess.csproj" />
+    <ProjectReference Include="..\efcore-playground.entities\efcore-playground.entities.csproj" />
+  </ItemGroup>
+
+</Project>

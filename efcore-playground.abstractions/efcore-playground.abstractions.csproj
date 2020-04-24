@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>efcore_playground.abstractions</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DatabaseAbstactions\" />
+    <Folder Include="ServiceAbstarctions\" />
+  </ItemGroup>
+
+</Project>
